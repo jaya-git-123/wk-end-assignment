@@ -13,6 +13,8 @@ header{
     margin-top: 20px;
     padding: 20px;
     justify-content: space-between;
+    width: 100%;
+    height: 20px;
 }
 nav ul{
     list-style: none;
@@ -59,7 +61,7 @@ section{
     border-radius: 0;
 }
 .imag{
-    width: 600px;
+    width: 100%;
     height: 400px;
 }
  .section-2{
@@ -253,6 +255,7 @@ footer .footer-social ul li a {
     flex-direction: column;
     text-align: center;
     width: 500px;
+    background-size: 100% 100%;
    }
    .sec-left{
     margin: 5px 5px;
