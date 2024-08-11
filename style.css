@@ -229,13 +229,28 @@ footer .footer-social ul li a {
     text-align: center;
     width: 500px;
    }
-   .l
+   .left-sde{
+    width: 500px;
+   }
+   .head{
+    text-align: center;
+    width: 500px;
+   }
+   .parag{
+    text-align: center;
+    width: 500px;
+   }
+   .card-1{
+    text-align: center;
+    width: 500px;
+   }
    .butn{
     width: 400px;
    }
    .section-3{
     flex-direction: column;
     text-align: center;
+    width: 500px;
    }
    .sec-left{
     margin: 5px 5px;
@@ -250,7 +265,7 @@ footer .footer-social ul li a {
    }
    footer{
     flex-direction: column;
-    width: 500px;
+    width: 100%;
    }
    .footer-links{
     flex-direction: column;
