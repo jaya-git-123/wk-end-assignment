@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 10px 10px;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+header{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    margin-right: 40px;
+}
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+.head{
+    font-size: 3rem;
+    margin-top: 80px;
+}
+ .parag{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+section{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+}
+.sec-2{
+    display: flex;
+    margin-top: 20px;
+}
+.img{
+    width: 700px;
+    height: 400px;
+}
+.email1{
+    width: 300px;
+    height: 40px;
+}
+.butn{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+}
+.imag{
+    width: 600px;
+    height: 400px;
+}
+ .section-2{
+    display: flex;
+    background-image: url(./Images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin-top: 45px;
+    /* margin-bottom: 0; */
+ }
+ .top-h{
+    margin-left: 40px;
+ }
+ .parag{
+    margin-left: 40px;
+ }
+.card-1{
+    width: 400px;
+    height: 250px;
+    border: 3px solid white;
+    margin-left: 40px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow:0 0 10px rgba(255,255,255,0.5);
+    margin-bottom: 90px;
+}
+.collon-1{
+    width: 20px;
+}
+.col-para{
+    margin-left: 20px;
+}
+.img-fle{
+    width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.flex-5{
+    display: flex;
+}
+.side-name{
+    text-align: left;
+}
+.section-3{
+    display: flex;
+    background-color: rgb(101, 82, 224);
+    color: white;
+}
+.sec-left{
+    margin: 60px 60px;
+    width: 50%;
+    padding: 20px;
+}
+.sec-left p{
+    font-size: 20px;
+}
+.sec-right{
+    margin: 60px 60px;
+}
+.email3{
+    width: 350px;
+    height: 35px;
+    border-radius: 3px;
+}
+.butn-3{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+}
+footer{
+    background-color: darkblue;
+    padding: 50px 0;
+    display: flex;
+}
+.icon-5{
+    filter: brightness(0) invert(1);
+}
+.container-fot{
+    color: white;
+}
+.container-fot li{
+    list-style: none;
+}
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.footer-links{
+    display: flex;
+    margin-top: 30px;
+}
+
+footer .footer-links ul li {
+    margin-right: 10px;
+}
+
+footer .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.circle{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+@media (max-width:599px){
+   header{
+    flex-direction: row;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   }
+   section{
+    flex-direction: column-reverse;
+   }
+   body{
+    width: 100%;
+    height: 100%;
+   }
+   .img{
+    width: 500px;
+   }
+   .head{
+    font-size: 2rem;
+    text-align: center;
+   }
+   .section-2{
+    flex-direction: column-reverse;
+    background-image: url(./Images/bg-curve-mobile.svg);
+   }
+   .section-3{
+    flex-direction: column;
+    text-align: center;
+   }
+   .sec-left{
+    margin: 5px 5px;
+    width: 100%;
+   }
+   .butn-3{
+    width: 350px;
+    height: 35px;
+   }
+   footer{
+    flex-direction: column;
+   }
+   .footer-links{
+    flex-direction: column;
+   }
+}
+
+
+ 
+ 
