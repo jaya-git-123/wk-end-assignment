@@ -227,7 +227,9 @@ footer .footer-social ul li a {
     flex-direction: column-reverse;
     background-image: url(./Images/bg-curve-mobile.svg);
     text-align: center;
+    width: 500px;
    }
+   .l
    .butn{
     width: 400px;
    }
@@ -235,12 +237,11 @@ footer .footer-social ul li a {
     flex-direction: column;
     text-align: center;
    }
-   .head .parag .card-1{
-    text-align: center;
-    width: 500px;
-   }
    .sec-left{
     margin: 5px 5px;
+    width: 500px;
+   }
+   .sec-right{
     width: 500px;
    }
    .butn-3{
@@ -249,6 +250,7 @@ footer .footer-social ul li a {
    }
    footer{
     flex-direction: column;
+    width: 500px;
    }
    .footer-links{
     flex-direction: column;
