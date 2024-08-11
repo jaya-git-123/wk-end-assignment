@@ -217,10 +217,14 @@ footer .footer-social ul li a {
    .head{
     font-size: 2rem;
     text-align: center;
+    width: 500px;
    }
    .section-2{
     flex-direction: column-reverse;
     background-image: url(./Images/bg-curve-mobile.svg);
+   }
+   .butn{
+    width: 250px;
    }
    .section-3{
     flex-direction: column;
