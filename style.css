@@ -218,9 +218,13 @@ footer .footer-social ul li a {
    header{
     flex-direction: row;
     padding: 5px 5px;
-    font-size: 15px;
+    font-size: 13px;
     justify-content: space-evenly;
     margin-bottom: 20px;
+   }
+   .logo{
+    float: left;
+    width: 100px;
    }
    section{
     flex-direction: column-reverse;
@@ -230,19 +234,17 @@ footer .footer-social ul li a {
     flex-direction: column;
    }
    .email1{
-    justify-content: center;
-    margin-left: 10px;
+    margin-left: 70px;
    }
    .butn{
     width: 300px;
     margin-top: 10px;
-    align-items: center;
+    margin-left: 70px;
    }
    .para-button{
     justify-content: center;
     align-items: center;
    }
-  
    .img{
     width: 500px;
     align-items: center;
@@ -256,11 +258,13 @@ footer .footer-social ul li a {
     width: 500px;
     text-align: center;
    }
+   .parag1{
+    /* margin: 5px 10px; */
+   }
    .section-2{
     flex-direction: column-reverse;
     background-image: url(./Images/bg-curve-mobile.svg);
     text-align: center;
-    background-size: 100% 100%;
    }
    /* .left-sde{
     width: 500px;
@@ -277,11 +281,9 @@ footer .footer-social ul li a {
    .section-3{
     flex-direction: column;
     text-align: center;
-    background-size: 100% 100%;
     width: 100%; 
    }
    .sec-left{
-    background-size: 100% 100%;
     margin-left: 10px;
     width: 60%;
    }
@@ -291,7 +293,6 @@ footer .footer-social ul li a {
    }
    footer{
     flex-direction: column;
-    background-size: 100% 100%;
     background-position: center;
    }
    .footer-links{
