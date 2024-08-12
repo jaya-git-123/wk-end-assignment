@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 5px 10px;
+    margin: 0.2px;
+    /* border: 2px solid red; */
     padding: 0;
 }
 body{
@@ -8,7 +9,7 @@ body{
     line-height: 1.5;
     text-align: left;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 header{
     display: flex;
@@ -44,10 +45,6 @@ section{
     display: flex;
     margin-top: 20px;
 }
-/* .img{
-    width: 700px;
-    height: 300px;
-} */
 .email1{
     width: 300px;
     height: 40px;
@@ -59,10 +56,6 @@ section{
     background-color: blue;
     color: white;
     border-radius: 0;
-}
-.imag{
-    width: 100%;
-    height: 400px;
 }
  .section-2{
     display: flex;
@@ -78,18 +71,20 @@ section{
  .top-h{
     margin-left: 40px;
  }
- .parag{
+ .parag1{
     margin-left: 40px;
+    font-size: 20px;
  }
 .card-1{
     width: 400px;
-    height: 250px;
+    height: 200px;
     border: 3px solid white;
     margin-left: 40px;
     border-radius: 8px;
     background-color: white;
     box-shadow:0 0 10px rgba(255,255,255,0.5);
-    margin-bottom: 90px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 .collon-1{
     width: 20px;
@@ -102,29 +97,37 @@ section{
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 .flex-5{
     display: flex;
 }
 .side-name{
     text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .section-3{
     display: flex;
     background-color: rgb(101, 82, 224);
     color: white;
     background-size: cover;
+    width: 100%;
 }
 .sec-left{
-    margin: 60px 60px;
+    margin: 30px 30px;
     width: 50%;
     padding: 20px;
 }
 .sec-left p{
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .sec-right{
-    margin: 60px 60px;
+    margin: 30px 30px;
+    width: 50%;
 }
 .email3{
     width: 350px;
@@ -143,12 +146,16 @@ footer{
     background-color: darkblue;
     padding: 50px 0;
     display: flex;
+    margin: 0;
 }
 .icon-5{
     filter: brightness(0) invert(1);
 }
 .container-fot{
     color: white;
+    margin: 40px;
+    line-height: 2;
+    margin-right: 80px;
 }
 .container-fot li{
     list-style: none;
@@ -156,15 +163,15 @@ footer{
 footer .footer-links ul {
     list-style: none;
     padding: 0;
-    margin-bottom: 20px;
 }
 .footer-links{
     display: flex;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 footer .footer-links ul li {
-    margin-right: 10px;
+    margin-right: 80px;
+    line-height: 2;
 }
 
 footer .footer-links ul li a {
@@ -179,7 +186,7 @@ footer .footer-social ul {
 
 footer .footer-social ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 footer .footer-social ul li a {
@@ -194,18 +201,12 @@ footer .footer-social ul li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
     height: 40px;
     width: 40px;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 80px;
 }
-@media (max-width:599px){
-    *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width:599px){
    header{
     flex-direction: row;
     padding: 10px 10px;
@@ -215,16 +216,24 @@ footer .footer-social ul li a {
    section{
     flex-direction: column-reverse;
    }
+   .sec-2{
+    display: flex;
+    flex-direction: column;
+   }
+   .email1{
+    justify-content: center;
+   }
    body{
     background-size: auto;
     width: 100%;
     height: 100%;
+    text-align: center;
    }
    .img{
     width: 500px;
    }
    .head{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     width: 500px;
    }
@@ -262,13 +271,15 @@ footer .footer-social ul li a {
     flex-direction: column;
     text-align: center;
     background-size: 100% 100%;
+    width: 100%;
    }
    .sec-left{
     background-size: 100% 100%;
     margin-left: 10px;
+    width: 60%;
    }
    .sec-right{
-    width: 500px;
+    width: 40%;
    }
    .butn-3{
     width: 350px;
