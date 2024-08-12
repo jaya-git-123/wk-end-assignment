@@ -260,7 +260,7 @@ footer .footer-social ul li a {
     flex-direction: column-reverse;
     background-image: url(./Images/bg-curve-mobile.svg);
     text-align: center;
-    background-size: contain;
+    background-size: 100% 100%;
    }
    /* .left-sde{
     width: 500px;
@@ -277,16 +277,13 @@ footer .footer-social ul li a {
    .section-3{
     flex-direction: column;
     text-align: center;
-    /* background-size: 100% 100%; */
-    /* width: 100%; */
+    background-size: 100% 100%;
+    width: 100%; 
    }
    .sec-left{
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
     margin-left: 10px;
-    /* width: 60%; */
-   }
-   .sec-right{
-    /* width: 40%; */
+    width: 60%;
    }
    .butn-3{
     width: 350px;
